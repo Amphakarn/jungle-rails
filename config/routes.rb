@@ -5,6 +5,8 @@ Rails.application.routes.draw do
   # get '/' => 'products#index'
   # get '/' => { controller: 'product', action: 'index' } # (not exact syntax)
 
+  resources :about, only: [:index]
+
   resources :products, only: [:index, :show]
   resources :categories, only: [:show]
 
