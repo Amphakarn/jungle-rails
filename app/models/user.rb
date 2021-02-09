@@ -1,6 +1,8 @@
 class User < ActiveRecord::Base
   has_secure_password
   before_save { self.email = email.downcase }
+  # auto_strip_attributes :email, :nullify => false
+  validates :first_name, :last_name, :email, presence: true
   validates :password, presence: true, length: { minimum: 5 }
   validates :email, uniqueness: { case_sensitive: false }
 
