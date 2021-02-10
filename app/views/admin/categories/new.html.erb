@@ -10,10 +10,10 @@
 
   <div class="form-group">
     <%= form_for [:admin, @category] do |form| %>
-      <%= form.label :category %>
-      <%= form.text_field :name, class: 'form-control' %>
+      <p> <%= form.label :category %> </p>
+      <p> <%= form.text_field :name, class: 'form-control' %> </p>
 
-      <%= form.submit 'Create Category', class: 'btn btn-primary' %>
+      <p><%= form.submit 'Create Category', class: 'btn btn-primary' %> </p>
     <% end %>
   </div>
 
