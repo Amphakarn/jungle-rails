@@ -29,21 +29,21 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 
 ##### Main Page
 
-!["Main page"]()
+!["Main page"](https://github.com/Amphakarn/jungle-rails/blob/master/doc/main_page.png?raw=true)
 
 ##### My Cart
 
-!["My cart"]()
+!["My cart"](https://github.com/Amphakarn/jungle-rails/blob/master/doc/my_cart.png?raw=true)
 
 ##### Admin Page (All Products and All Categories)
 
-!["Admin All Products"]()
-!["Admin All Categories"]()
+!["Admin All Categories"](https://github.com/Amphakarn/jungle-rails/blob/master/doc/admin_new_category.png?raw=true)
+!["Admin All Products"](https://github.com/Amphakarn/jungle-rails/blob/master/doc/admin_all_products.png?raw=true)
 
 ##### Sign Up
 
-!["Sign up"]()
+!["Sign up"](https://github.com/Amphakarn/jungle-rails/blob/master/doc/sign_up.png?raw=true)
 
 ##### Log In
 
-!["Log in"]()
+!["Log in"](https://github.com/Amphakarn/jungle-rails/blob/master/doc/login.png?raw=true)
